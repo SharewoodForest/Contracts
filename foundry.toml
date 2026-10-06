@@ -11,7 +11,7 @@ runs = 1000
 
 [rpc_endpoints]
 robinhood_mainnet = "https://rpc.mainnet.chain.robinhood.com"
-robinhood_testnet = "${ROBINHOOD_TESTNET_RPC}"
+robinhood_testnet = "https://rpc.testnet.chain.robinhood.com"
 
 [etherscan]
 robinhood_mainnet = { key = "blockscout", chain = 4663, url = "https://robinhoodchain.blockscout.com/api" }
